@@ -14,3 +14,9 @@ library(purrr)
 library(readr)
 library(readxl)
 library(magrittr)
+
+cars <- read.csv("C:/Users/micha/Downloads/imports-85.data", header = FALSE)
+colnames(cars) <- c('symboling', 'normalized_losses', 'make', 'fuel_type', 'aspiration', 'num_doors', 'body_style', 
+                    'drive_wheels', 'engine_location', 'wheel_base', 'length', 'width', 'height', 'curb_weight', 'engine_type',
+                    'num_cylinders', 'engine_size', 'fuel_system', 'bore', 'stroke', 'compression', 'horsepower',
+                    'peak_rpm', 'city_mpg', 'highway_mpg', 'price')
