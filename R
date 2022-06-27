@@ -1,0 +1,16 @@
+7+123 <- a 
+
+library(dplyr)
+library(tidyr)
+library(broom)
+library(lattice)
+library(ggplot2)
+library(knitr)
+library(aod)
+library(caret)
+library(stringr)
+library(tidyverse)
+library(purrr)
+library(readr)
+library(readxl)
+library(magrittr)
